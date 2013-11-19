@@ -1,0 +1,43 @@
+<!doctype html>
+
+<html>
+	<head>
+		
+	</head>
+	<body>
+		<h2>signup test</h2>
+		<form method="post">
+			<div>
+				<label>
+					name: 
+					<input type="text" name="username" value="{{name}}">
+					<span class="error">{{nameError}}</span>
+				</label>
+			</div>
+			<div>
+				<label>
+					password:
+					<input type="password" name="password">
+					<span class="error">{{pwValidError}}</span>
+				</label>
+			</div>
+			<div>
+				<label>
+					confirm password:
+					<input type="password" name="verify">
+					<span class="error">{{confirmError}}</span>
+				</label>
+			</div>
+			<div>
+				<label>
+					email:
+					<input type="text" name="email" value="{{email}}">
+					<span class="error">{{emailError}}</span>
+				</label>
+			</div>
+			<div>
+				<input type="submit">
+			</div>
+		</form>
+	</body>
+</html>

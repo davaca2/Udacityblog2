@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head></head>
+<body>
+	<h2>Testing</h2>
+	{% for post in blogposts %}
+	<div>
+		<div>{{post.subject}}</div>
+		<div>{{post.content}}</div>
+	</div>
+	<br>
+	
+	{% endfor %}
+	<div class ='time'>
+		page Queried {{cache_time}} seconds ago.
+	</div>
+</body
+
+</html>
